@@ -1,55 +1,55 @@
-# Projet de Clonage de Voix avec Bark et HuBERT
+# Voice Cloning Project with Bark and HuBERT
 
-## Description du Projet
+## Project Description
 
-Le clonage de voix est une technologie qui permet de créer des répliques numériques d'une voix humaine, en reproduisant fidèlement des caractéristiques telles que le timbre, l'intonation, et le style de parole. Ce projet exploite des modèles avancés comme **Bark** pour la synthèse vocale et **HuBERT** pour l'analyse des caractéristiques audio.
+Voice cloning is a technology that allows the creation of digital replicas of a human voice, faithfully reproducing characteristics such as timbre, intonation, and speaking style. This project leverages advanced models like **Bark** for voice synthesis and **HuBERT** for audio feature analysis.
 
-Grâce à des techniques d'apprentissage profond, le clonage de voix permet de générer un discours imitant un locuteur spécifique à partir d'un échantillon vocal limité. Le projet peut être utilisé dans divers domaines, tels que :
-- La génération de doublages pour des médias
-- La création de voix pour des assistants virtuels
-- La personnalisation du contenu audio
+Using deep learning techniques, voice cloning can generate speech that mimics a specific speaker from a limited voice sample. The project can be applied in various fields, including:
+- Dubbing generation for media
+- Creating voices for virtual assistants
+- Customizing audio content
 
-Cependant, ce type de technologie pose des questions éthiques, notamment en termes de confidentialité et d'authenticité des données vocales.
+However, this type of technology raises ethical concerns, especially regarding data privacy and the authenticity of voice samples.
 
-## Créateurs
+## Creators
 
-Ce projet a été réalisé par **Samy Hadj-Said**, **Jason Perez**, et **Briac Six**.
+This project was developed by **Samy Hadj-Said**, **Jason Perez**, and **Briac Six**.
 
-## Démonstration
+## Demonstration
 
-Vous pouvez consulter la démonstration complète sur Google Colab en suivant [ce lien](https://colab.research.google.com/drive/1kRR49HINV5_EeorFLMiMd9AeQm--gfmX?usp=sharing).
+You can view the full demonstration on Google Colab by following [this link](https://colab.research.google.com/drive/1kRR49HINV5_EeorFLMiMd9AeQm--gfmX?usp=sharing).
 
 ## Installation
 
-Pour exécuter ce projet, vous aurez besoin d'installer les bibliothèques suivantes :
+To run this project, you will need to install the following libraries:
 - bark-voice-cloning-HuBERT-quantizer
 - bark
 
-## Utilisation
+## Usage
 
-1. **Chargement des modèles Bark et HuBERT** : Charger les modèles nécessaires pour la génération et la manipulation de l'audio.
-2. **Génération d'Audio à Partir de Texte** : Générer un fichier audio à partir d'un texte fourni en entrée.
-3. **Préparation de l'audio à cloner et des modèles** : Configurer les modèles et préparer l'audio pour le clonage.
-4. **Extraction des Tokens Sémantiques avec HuBERT** : Extraire les tokens sémantiques de l'audio avec le modèle HuBERT.
-5. **Génération d'Audio avec la Voix Clonée** : Utiliser les tokens extraits pour générer un fichier audio avec la voix clonée.
+1. **Loading Bark and HuBERT Models**: Load the required models for audio generation and manipulation.
+2. **Audio Generation from Text**: Generate an audio file from the provided text input.
+3. **Preparing Audio for Cloning and Model Setup**: Set up the models and prepare the audio for cloning.
+4. **Semantic Token Extraction with HuBERT**: Extract semantic tokens from the audio using the HuBERT model.
+5. **Audio Generation with Cloned Voice**: Use the extracted tokens to generate an audio file with the cloned voice.
 
-## Fichiers Importants
+## Key Files
 
-- `bark-voice-cloning-HuBERT-quantizer`: Modèle pour l'extraction de tokens sémantiques avec HuBERT.
-- `bark`: Modèle pour la synthèse vocale.
-- `audio.wav`: Exemple d'audio à cloner.
-- `output.npz`: Fichier contenant les prompts générés pour la génération d'audio.
+- `bark-voice-cloning-HuBERT-quantizer`: Model for semantic token extraction with HuBERT.
+- `bark`: Model for voice synthesis.
+- `audio.wav`: Example of audio to be cloned.
+- `output.npz`: File containing the generated prompts for audio generation.
 
-## Références et Documentation
+## References and Documentation
 
 - [Bark GitHub Repository](https://github.com/serp-ai/bark-with-voice-clone)
 - [HuBERT GitHub Repository](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer)
 - [Coqui TTS](https://github.com/coqui-ai/TTS)
 
-## Enjeux Éthiques
+## Ethical Concerns
 
-Bien que la technologie de clonage de voix soit fascinante et ouvre de nombreuses perspectives, elle pose des questions éthiques, notamment concernant l'authenticité des voix et la protection des données personnelles. Il est essentiel d’utiliser ces technologies de manière responsable.
+While voice cloning technology is fascinating and opens up many possibilities, it raises important ethical concerns, particularly regarding the authenticity of voices and the protection of personal data. It is essential to use these technologies responsibly.
 
 ## License
 
-Ce projet est sous la licence [MIT](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
