@@ -1,0 +1,11 @@
+langchain==0.2.3
+langchain-core==0.2.5
+langchain-openai==0.1.8
+langchain-text-splitters==0.2.1
+langsmith==0.1.75
+openai==1.33.0
+python-dotenv==1.0.1
+flask==3.0.0
+torch==2.0.1  # Adjust version if necessary
+TTS==0.14.0  # Adjust version if necessary
+pydub==0.25.1  # Adjust version if necessary
